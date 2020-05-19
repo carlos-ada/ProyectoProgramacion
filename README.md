@@ -10,4 +10,3 @@ Este sera mi proyecto del 3º Trimestre
 
 - Ficheros: Exportar jugadores de un equipo
 
-- GitHub: [ProyectoProgramacion](https://github.com/carlos-ada/ProyectoProgramacion.git)
