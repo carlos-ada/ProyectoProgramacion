@@ -13,6 +13,7 @@ public class Login {
 		boolean check = new modelo.Users().checkUserAndPass(user, password);
 		if(check) {
 			JOptionPane.showMessageDialog(null, "¡Usuario correcto!");
+			new vista.ElegirEquipo().setVisible(true);
 		}else { // Sino error
 			JOptionPane.showMessageDialog(null, "¡Usuario no registrado!");
 		}

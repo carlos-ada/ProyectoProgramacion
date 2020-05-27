@@ -80,7 +80,7 @@ public class Login extends JFrame {
 		lblContrasea.setBounds(10, 127, 76, 14);
 		panel.add(lblContrasea);
 		
-		JButton btnNewButton_1 = new JButton("Insertar");
+		JButton btnNewButton_1 = new JButton("Registrar");
 		
 		btnNewButton_1.setBounds(29, 168, 89, 23);
 		panel.add(btnNewButton_1);
@@ -115,15 +115,16 @@ public class Login extends JFrame {
 			//	Users usr = new Users();
 				String user = userInput.getText();
 				String password = passwordInput.getText();
-				new controlador.Login().checkUser(user, password);		
+				new controlador.Login().checkUser(user, password);	
+				dispose();
 				//if (usr.checkUserAndPass(user, password)) {                        
 				//Login atras1 = new Login();                        
 				//atras1.setVisible(true);                         
 				//setVisible(false);                                             
 //} else {                         
 	//JOptionPane.showMessageDialog(null, "Usuario no reconocido");  }
-				new vista.ElegirEquipo().setVisible(true);
-				dispose();
+				//new vista.ElegirEquipo().setVisible(true);
+				
 			}
 		});
 		

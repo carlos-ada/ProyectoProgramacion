@@ -49,7 +49,7 @@ public class ExportarJugadores extends JFrame {
     	File CrearArchi=new File(CrearUbicacion+archivo);
     	
     	if(textField_5.getText().equals("")) {
-    		JOptionPane.showMessageDialog(rootPane, "¡No existe este ID!");
+    		JOptionPane.showMessageDialog(rootPane, "¡No ha sido posible la exportacion!");
     	}else {
     		try {
     			if(CrearArchi.exists()) {
